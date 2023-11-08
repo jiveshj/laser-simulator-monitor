@@ -2556,14 +2556,14 @@
     (property "CatNo" "AD620BRZ-R7CT-ND" (at 87.63 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 46048e5a-3ceb-47b7-80d5-e4f5e4fec59a))
-    (pin "2" (uuid 6145bb89-ddb5-473f-95c9-c76ddb7a965d))
-    (pin "3" (uuid b00d9ca2-e614-4386-8baa-b943b4051e2e))
-    (pin "4" (uuid bebc9236-201b-4c06-bfd2-7355739ece1c))
-    (pin "5" (uuid 9de54c90-476b-4abb-9a49-d4c34d17dc30))
-    (pin "6" (uuid f0286176-2552-4d1c-845a-c5ce5aedc7f1))
-    (pin "7" (uuid 3db1cc06-60a0-4c5b-bac6-59e1ad49573d))
-    (pin "8" (uuid 01ba7b40-4204-476d-9ea1-1536f15b4d35))
+    (pin "1" (uuid 1bea0b31-7ec0-4780-a2f0-51b6f5f6870d))
+    (pin "2" (uuid 92df03f3-96e6-4981-9e34-0ce9db366637))
+    (pin "3" (uuid df439218-eeb0-4239-8b5e-1362831f198d))
+    (pin "4" (uuid 8204a99f-293d-43e5-a015-1990a5ea04ac))
+    (pin "5" (uuid 71e12514-fc65-4561-a1f7-654fde1861a9))
+    (pin "6" (uuid 736a1cf8-3718-4483-9412-bb189204e701))
+    (pin "7" (uuid 006018cf-4c25-4c63-b7db-97a6486bea49))
+    (pin "8" (uuid 8db69152-7525-4c2f-b118-e835f0b0921b))
     (instances
       (project "monitor_board"
         (path "/16844ee0-cee9-4c67-862e-a32649e403e6"
