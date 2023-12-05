@@ -1079,7 +1079,7 @@
 
   (footprint "BotLAB_logo:rhett_logo" (layer "F.Cu")
     (tstamp 59b324b4-9e02-4804-8be4-f2c8ea53542a)
-    (at 113.284 106.172)
+    (at 113.665 105.029)
     (attr through_hole)
     (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
         (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -13157,7 +13157,7 @@
 
   (footprint "BotLAB_logo:BOTLAB_logo" (layer "F.Cu")
     (tstamp fc5356f3-3329-4045-8359-470c85d135ca)
-    (at 81.661 115.697)
+    (at 75.346277 116.578945)
     (attr through_hole)
     (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
         (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -16423,8 +16423,8 @@
   (gr_text "Laser Sim" (at 126.746 67.31 90) (layer "F.SilkS") (tstamp 457b7b83-9816-40b2-b340-073fff7ea9ce)
     (effects (font (size 1.524 1.524) (thickness 0.2032)) (justify left bottom))
   )
-  (gr_text "DOSI Laser Controller Test V1.0\n2023-12  J. Jain" (at 94.615 118.491) (layer "F.SilkS") (tstamp 854219ea-b261-40d0-a7a3-ec8ebb84da66)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+  (gr_text "DOSI Laser Controller Test V1.0\n2023-12  J. Jain" (at 85.598 118.11) (layer "F.SilkS") (tstamp 854219ea-b261-40d0-a7a3-ec8ebb84da66)
+    (effects (font (size 1.524 1.524) (thickness 0.15)) (justify left bottom))
   )
   (gr_text "+" (at 103.505 42.799) (layer "F.SilkS") (tstamp 8a4c423c-aac9-49b5-a47b-d5fa0fa28479)
     (effects (font (size 1.524 1.524) (thickness 0.2032)) (justify left bottom))
