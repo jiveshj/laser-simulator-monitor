@@ -2657,6 +2657,11 @@
     (uuid ffdbc786-8040-48e9-8034-a5b93d11db42)
   )
 
+  (text "DOSI Laser Controller Test Fixture\nV1.0  Dec 2023" (at 180.34 177.8 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid 823dcf0b-e518-44b6-82d5-bfe0af7e5dad)
+  )
+
   (label "ADC6" (at 41.91 172.72 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0fee23db-6c1e-4799-a00d-b8dcf6ea2901)
