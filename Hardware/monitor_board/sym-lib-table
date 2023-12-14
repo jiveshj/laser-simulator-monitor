@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "misc_bom")(type "KiCad")(uri "${KIPRJMOD}/misc_bom.kicad_sym")(options "")(descr ""))
   (lib (name "power_U6E")(type "KiCad")(uri "C:/Users/jivesh/Downloads/power_U6E.kicad_sym")(options "")(descr ""))
+  (lib (name "CustomDigitalPotentiometer")(type "KiCad")(uri "C:/Users/jivesh/Downloads/CustomDigitalPotentiometer.kicad_sym")(options "")(descr ""))
 )
