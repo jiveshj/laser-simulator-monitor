@@ -79,3 +79,8 @@ program without using the Arduino IDE.
 The Pro Mini could be substituted as it is almost exactly the same
 pinout, though and FTDI serial thing is required.
 	
+For now I suggest to use the Arduino environment on the Pro Micro.
+All the hardware devices (ADC MCP3428, digi pot MCP4561) have libraries.
+
+See https://github.com/jiveshj/laser-simulator-monitor directory
+`Software/Arduino/SerialCommandExample` for a simple command parser.

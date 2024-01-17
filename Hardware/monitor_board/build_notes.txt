@@ -1,0 +1,113 @@
+Suggested Assembly/Test Order:
+
+0.  Check with meter, ensure open circuit between 12V and GND, 5V and GND
+
+1.  Install all passives (R, C, LEDs)
+    NOTE:  LED install with long lead in round pad hole
+
+2.  Install U3
+
+3.  Connect power supply to J4 (observe polarity, it is not marked!)
+    Apply 12V power with 100mA current limit.
+
+    check:  Note power supply current:  ____________________
+
+	    5V1 LED lit
+    	    12V1 LED lit
+    	    +5V measures correct with meter
+	    +12V measures correct with meter
+	    Check 5V and 12V on power supply pins of all chips
+
+4.  Install socket and Arduino
+    Apply 12V power
+    check:  Note power supply current:  ____________________
+    	    Power LEDs still lit
+
+5.  Install Aruino software
+    Connect USB cable
+    Set for board "Arduino Leonardo"
+    Figure out port if needed
+
+    Load "blinky" example and change to pin 14 where LED1 is connected
+
+    Download and run, LED1 should blink.
+
+    You should be very happy at this point!  The Arduino is working!
+
+
+
+6.  Install U1
+
+    Apply 12V power
+    check:  Note power supply current:  ____________________
+    	    Power LEDs still lit
+
+    At this point we need some software
+
+    Install the MCP342x library and get some of the examples working.
+
+    Connect a 1k-10k potentiometer as follows:
+
+    	    Top    - 5V
+	    wiper  - ADC0 (J3 pin 1)
+	    Bottom - GND
+
+    Read the ADC channel 0 while you adjust the pot.
+    Make a plot of ADC reading vs voltage, should be linear.
+
+7.  Install U5, U8
+
+    Apply 12V power
+    check:  Note power supply current:  ____________________
+    	    Power LEDs still lit
+
+    Check with your pot connected to ADC4 and ADC8 that they work as well
+
+8.  Install U7
+
+    Apply 12V power
+    check:  Note power supply current:  ____________________
+    	    Power LEDs still lit
+
+    Find and install the Arduino library for the digi pot (MCP4561)
+
+    Test it:  changing the setting should change the voltage on pin 6 (or pin 3 of U4)
+
+9.  Install U2
+
+    Apply 12V power
+    check:  Note power supply current:  ____________________
+    	    Power LEDs still lit
+
+    Test U2.  It is designed to measure current in the 0-1A range or so.
+    Use ohm's law to choose a resistor to connect between RT0 and GND, read ADC9
+    (or check the voltage at ADC9 with a meter) and confirm that it works as expected.
+
+
+
+10. Install U4.
+
+    Using your test resistor from step 9 and software to program the digi pot,
+    measure the output of U4 (pin 7) and ensure that it works as expected.
+
+11. Install U6.
+
+    Test the logic.  When either pin 1 or pin 2 is high on U6, pin 3 should be high.
+
+    (pin 1 is output of U4, pin 2 is Arduino D5)
+
+12. Install Q1
+
+    Connect a resistor (maybe with an LED) on J2
+
+    Confirm that everything works correctly
+    (current limit set with digi pot, enable with Arduino pin D5)
+
+That's pretty much it for the hardware.
+
+For the software, see ...Software/Arduino/SerialCommandExample
+and the README in the Software directory to get started.
+
+
+
+    
