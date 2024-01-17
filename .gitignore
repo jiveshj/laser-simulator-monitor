@@ -2,6 +2,11 @@
 # Format documentation: https://kicad.org/help/file-formats/
 
 # Temporary files
+*.o
+*.hex
+*.lst
+*.map
+*.elf
 *.000
 *.bak
 *.bck
